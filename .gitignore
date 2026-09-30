@@ -1,0 +1,28 @@
+# Local environments and secrets
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+
+# Notebook and tool caches
+.ipynb_checkpoints/
+.jupyter/
+.pytest_cache/
+.ruff_cache/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+.DS_Store
+Thumbs.db
+
+# Data that should not be published
+data/raw/
+data/private/
+data/**/*.csv
+data/**/*.parquet
+data/**/*.feather
